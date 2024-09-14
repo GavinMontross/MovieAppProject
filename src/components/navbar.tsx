@@ -23,7 +23,7 @@ return <Menu fixed="top" size="huge">
     <Menu.Menu position="right">
         {isLoggedIn ? (
             <Menu.Item as={Button} style ={{ fontSize: "1.5rem"}} onClick={logout}> Logout </Menu.Item>) :
-             (<Menu.Item as={Link} to="/auth" style ={{ fontSize: "1.5rem"}}> Auth </Menu.Item> )}
+             (<Menu.Item as={Link} to="/auth" style ={{ fontSize: "1.5rem"}}> Sign In </Menu.Item> )}
         </Menu.Menu>
 
        
